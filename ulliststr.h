@@ -121,7 +121,7 @@ class ULListStr {
    */
   std::string* getValAtLoc(size_t loc) const;
 
-
+  void startList(const std::string val);
   /**
    * Data members
    *  You MUST keep these members though you
